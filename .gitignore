@@ -214,3 +214,8 @@ dmypy.json
 cython_debug/
 .tox
 .pytest_cache
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
