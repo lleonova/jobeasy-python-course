@@ -3,5 +3,10 @@
 # !important you should save only number to result_temperature. Formula (32°F − 32) × 5/9 = 0°C
 
 # type your code here
-temperature_fahrenheit = None
-result_temperature = None
+
+temperature_fahrenheit = input('Enter the temperature in Farenheit')
+
+result_temperature = (int(temperature_fahrenheit) - 32) * 5 / 9.0
+print(round(result_temperature, 2))
+print(type(result_temperature))
+
